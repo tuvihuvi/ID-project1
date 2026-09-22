@@ -35,4 +35,3 @@ const timeFormattedET = function(){
 
 //ekspordin kõik vajalikud funktsioonid koos mugavamate nimedega
 module.exports = {date: dateFormattedET, time: timeFormattedET, day: dayFormattedET};
-console.log('Täna on ' + dayFormattedET() + ' ' + dateFormattedET(1) + '.' + ' Kell on ' + timeFormattedET() + '.');
